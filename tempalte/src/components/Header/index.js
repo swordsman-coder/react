@@ -69,9 +69,16 @@ class HeaderBar extends React.Component {
         <span>{isAuthenticated()}</span>
       </Dropdown>
     )
+    const style = {
+      lineHeight: '64px', 
+      float: 'right'
+    }
+    const fontSize = {
+      fontSize: '20px'
+    }
     return (
       <div id='headerbar'>
-        <div style={{lineHeight: '64px', float: 'right'}}>
+        <div style={style}>
           <ul className='header-ul'>
             <li>
                 <Icon 
@@ -79,7 +86,7 @@ class HeaderBar extends React.Component {
                     this.screenfullToggle
                   }
                   className='trigger' 
-                  style={{fontSize: '20px'}} 
+                  style={fontSize} 
                   type={icon} />
             </li>
             

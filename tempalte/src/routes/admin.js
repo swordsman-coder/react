@@ -14,18 +14,22 @@ class Admin extends React.Component{
         collapsed: !this.state.collapsed
         })
     }
+
     render(){
+        const headerStyle = {
+            background: '#fff',
+            padding: '0 16px'
+        }
         return (
             <Layout>
                 <Sider
                     collapsible
                     trigger={null}
-                    collapsed={this.state.collapsed}
-                >
-                    <SlideBar/>                                    
+                    collapsed={this.state.collapsed}>
+                <SlideBar/>                                    
                 </Sider>
                 <Layout>
-                    <Header style={{background: '#fff', padding: '0 16px'}}>
+                    <Header style={headerStyle}>
                         <HeaderBar collapsed={this.state.collapsed} onToggle={this.toggle}/>
                     </Header>
                     <Content>

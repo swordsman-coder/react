@@ -20,12 +20,16 @@ const menus = [
     ]
   }
 ]
-
+const navStyle = {
+  height: '100vh',
+  overflowY: 'scroll',
+  background: '#001529'
+}
 class SiderNav extends React.Component {
   render() {
 
     return (
-      <div className='ezr-nav' style={{height: '100vh',overflowY:'scroll',background: '#001529'}}>
+      <div className='ezr-nav' style={navStyle}>
         <div className='logo'>
           LOGO
         </div>
