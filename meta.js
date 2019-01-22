@@ -10,7 +10,7 @@ module.exports = {
     }, {
         name: 'description',
         message: '项目的简介',
-        default: `A project for koa2`
+        default: `A project for react`
     }, {
         name: 'author',
         message: '作者',
