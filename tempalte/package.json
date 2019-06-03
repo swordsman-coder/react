@@ -152,5 +152,5 @@
   "devDependencies": {
     "babel-plugin-zent": "^1.2.2"
   },
-  "proxy": "http://192.168.12.126:9300"
+  "proxy": "xxxx"
 }
