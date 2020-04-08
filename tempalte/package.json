@@ -152,5 +152,5 @@
   "devDependencies": {
     "babel-plugin-zent": "^1.2.2"
   },
-  "proxy": "xxxx"
+  "proxy": "https://www.baidu.com"
 }
